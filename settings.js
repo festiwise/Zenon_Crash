@@ -5,14 +5,14 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "2348165846414"
-global.ownername = "𝑻𝒐𝒙𝒙𝒊𝒄 𝑩𝒐𝒚"
+global.ownernomer = "233550928795"
+global.ownername = "YOUNG STEEZ"
 global.ytname = "YT: ToxxicTech"
 global.socialm = "GitHub: Toxic1239"
-global.location = "Nigeria"
+global.location = "Ghana"
 
-global.ownernumber = '2348165846414'  //creator number
-global.ownername = '𝑻𝒐𝒙𝒙𝒊𝒄 𝑻𝒆𝒄𝒉' //owner name
+global.ownernumber = '233550928795'  //creator number
+global.ownername = 'STEEZ 𝑻𝒆𝒄𝒉' //owner name
 global.botname = '𝒁𝒆𝒏𝒐𝒏 𝒁𝒐𝒈𝒓𝒂𝒕𝒊𝒔' //name of the bot
 
 // MENU TYPE
@@ -45,11 +45,11 @@ global.prefa = ['','.']
 //false=disable and true=enable
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
-global.autorecordtype = false //auto typing + recording
+global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti92 = false //auto block +92 
-global.autoswview = false //auto view status/story
+global.autoswview = true //auto view status/story
 
 //text bug
 global.xbugtex = {
@@ -60,11 +60,11 @@ global.bimg = '//9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQw
 //reply messages
 global.mess = {
     done: '𝑻𝒂𝒔𝒌 𝑫𝒐𝒏𝒆 𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍𝒍𝒚!',
-    prem: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝑼𝒔𝒆𝒓𝒔',
+    prem: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 steez only',
     admin: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑨𝒅𝒎𝒊𝒏𝒔 𝑶𝒏𝒍𝒚',
-    botAdmin: '𝒁𝒆𝒏𝒐𝒏 𝑴𝒖𝒔𝒕 𝑩𝒆 𝑨𝒅𝒎𝒊𝒏 𝑭𝒊𝒓𝒔𝒕',
-    owner: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑶𝒘𝒏𝒆𝒓 𝑶𝒏𝒍𝒚',
-    group: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑮𝒓𝒐𝒖𝒑 𝑪𝒉𝒂𝒕 𝑶𝒏𝒍𝒚',
+    botAdmin: 'you 𝑴𝒖𝒔𝒕 𝑩𝒆 𝑨𝒅𝒎𝒊𝒏 𝑭𝒊𝒓𝒔𝒕',
+    owner: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 me 𝑶𝒏𝒍𝒚',
+    group: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 steez 𝑮𝒓𝒐𝒖𝒑 𝑪𝒉𝒂𝒕 𝑶𝒏𝒍𝒚',
     private: '𝑻𝒉𝒊𝒔 𝑪𝒐𝒎𝒎𝒂𝒏𝒅 𝒊𝒔 𝑭𝒐𝒓 𝑷𝒓𝒊𝒗𝒂𝒕𝒆 𝑪𝒉𝒂𝒕 𝑶𝒏𝒍𝒚',
     wait: '𝑳𝒐𝒂𝒅𝒊𝒏𝒈...',    
     error: '𝑬𝒓𝒓𝒐𝒓 𝑯𝒂𝒔 𝑶𝒄𝒄𝒖𝒓𝒓𝒆𝒅',
